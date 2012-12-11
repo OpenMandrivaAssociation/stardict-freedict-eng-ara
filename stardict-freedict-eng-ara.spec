@@ -37,3 +37,28 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root)
 %{_datadir}/stardict/dic/*
 
+
+
+%changelog
+* Wed Jul 23 2008 Thierry Vignaud <tvignaud@mandriva.com> 2.4.2-5mdv2009.0
++ Revision: 242734
+- rebuild
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Aug 20 2007 Thierry Vignaud <tvignaud@mandriva.com> 2.4.2-3mdv2008.0
++ Revision: 67661
+- use %%mkrel
+
+
+* Sat Oct 01 2005 Abel Cheung <deaddog@mandriva.org> 2.4.2-3mdk
+- Rebuild
+
+* Tue Jun 01 2004 Abel Cheung <deaddog@deaddog.org> 2.4.2-2mdk
+- Dictionaries require main program as well
+
+* Fri Nov 28 2003 Abel Cheung <deaddog@deaddog.org> 2.4.2-1mdk
+- First Mandrake package
+
